@@ -3,3 +3,7 @@ Notes 8-16-2022
 Java Skeleton very important.
 Change class name and file name to the SAME.
 Error may not be in place error says it is.
+
+Notes 8-18-2022
+
+Must have main method
