@@ -23,3 +23,10 @@ Notes 8-22-2022
 Char with double " will give error. Use single '.
 
 Primitive most basic data type. 
+
+Refrence varibles store address of value. NOT the value.
+
+char x = 'a'  We think it will store a but really it is stored 010000001
+
+
+
