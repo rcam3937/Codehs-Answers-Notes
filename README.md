@@ -1,10 +1,10 @@
-Notes 8-16-2022
+#Notes 8-16-2022
 
 Java Skeleton very important.
 Change class name and file name to the SAME.
 Error may not be in place error says it is.
 
-Notes 8-18-2022
+#Notes 8-18-2022
 
 Must have main method
 MOST INCULDE SEMICOLON AT END OF executable FILE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -12,7 +12,7 @@ System.out.println different lines.
 System.out.print same line.
 
 
-Notes 8-22-2022
+#Notes 8-22-2022
 
   Examples of data types
     int: 24543
