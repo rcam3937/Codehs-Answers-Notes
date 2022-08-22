@@ -8,6 +8,18 @@ Notes 8-18-2022
 
 Must have main method
 MOST INCULDE SEMICOLON AT END OF executable FILE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-System.out.println different lines. System.out.print same line.
+System.out.println different lines. 
+System.out.print same line.
 
 
+Notes 8-22-2022
+
+  Examples of data types
+    int: 24543
+    double: 3.553434235678
+    char: 'A'
+    boolean: true/false
+
+Char with double " will give error. Use single '.
+
+Primitive most basic data type. 
