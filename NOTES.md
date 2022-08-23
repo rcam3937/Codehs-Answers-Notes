@@ -27,5 +27,20 @@ Refrence varibles store address of value. NOT the value.
 
 char x = 'a'  We think it will store a but really it is stored 010000001
 
+Notes 8-16-2022
+--------------------------------------------
+Modulus is divide and take the remanainer
+
+
+
+
+
+
+
+
+
+
+
+
 
 
