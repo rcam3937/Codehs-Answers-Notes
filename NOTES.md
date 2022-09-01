@@ -106,8 +106,10 @@ public class NightOut
 
 
 
+double movieRatings;
+
+int intRound = (int) (movieRatings +0.5);             <-- Casting
 
 
-
-
-
+int int1;
+double myDouble = (double) int1;
