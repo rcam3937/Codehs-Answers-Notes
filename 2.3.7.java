@@ -1,53 +1,63 @@
-
-WebsiteTester.java:
-------------------
-public class WebsiteTester
+Pinata.java:
+-----------
+public class Pinata
 {
-    public static void main(String[] args)
+    // Instance variables
+    private String candy;    // what kind of candy is inside
+    private String color;    
+    private String shape;
+    
+    // Constructor without parameters
+    public Pinata()
     {
-        Website com = new Website();
-        Website goodschool = new Website("goodSchool", "edu");
-        Website codehs = new Website("codehs", "com", 1000000);
-        
-        System.out.println(com);
-        System.out.println(goodschool);
-        System.out.println(codehs);
+        candy = "hard candy";
+        color = "rainbow";
+        shape = "donkey";
+    }
+    
+    public Pinata(String uCandy, String uColor, String uShape)
+    {
+        candy = uCandy;
+        color = uColor;
+        shape = uShape;
+    }
+    
+    
+    public Pinata(String nColor, String nShape)
+    {
+        candy = "hard candy";
+        color = nColor;
+        shape = nShape;
+    }
+    
+    public Pinata(String mCandy)
+    {
+        candy = mCandy;
+        color = "rainbow";
+        shape = "donkey";
+    }
+    
+    
+    
+    public String toString()
+    {
+        return color + " " + shape + " pinata filled with " + candy;
     }
 }
 
-Website.java:
-------------
-public class Website
-{
-    String domain;
-    String topLevelDomain;
-    int numUsers;
-    
-    public Website()
-    {
-        domain = "";
-        topLevelDomain = "com";
-        numUsers = 0;
-    }
-    
-    public Website(String domainName, String topDomain)
-    {
-        domain = domainName;
-        topLevelDomain = topDomain;
-        numUsers = 0;
-    }
-    
-    public Website(String domainName, String topDomain, int numPeople)
-    {
-        domain = domainName;
-        topLevelDomain = topDomain;
-        numUsers = numPeople;
-    }
 
-    public String toString()
+PinataTester.java:
+-----------------
+public class PinataTester
+{
+    public static void main(String[] args)
     {
-        String res =  "https://www." + domain + "." + topLevelDomain;
-        res += " has " + numUsers + " users";
+        // Make Pinatas!
+        Pinata ella = new Pinata();
         
-        return res;
- 
+        // Print the pinatas
+        System.out.println(ella);
+        
+        
+    }
+}
