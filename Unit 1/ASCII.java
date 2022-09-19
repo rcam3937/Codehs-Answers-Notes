@@ -1,4 +1,4 @@
-public class Art 
+public class ASCII 
 {
     public static void main(String[] args)
     {

@@ -1,4 +1,4 @@
-public class Variables
+public class firstInt
 {
     public static void main(String[] args)
     {

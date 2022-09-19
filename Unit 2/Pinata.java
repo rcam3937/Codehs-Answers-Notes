@@ -1,4 +1,4 @@
-Pinata.java:
+/*Pinata.java:
 -----------
 public class Pinata
 {
@@ -61,3 +61,4 @@ public class PinataTester
         
     }
 }
+*/

@@ -1,4 +1,4 @@
-public class AddFractions 
+public class addFractions 
 {
     public static void main(String[] args)
     {
